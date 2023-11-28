@@ -1,2 +1,2 @@
-# TestGit09
-This is for a classroom
+Chatchawat Kijsatharn
+6110462
