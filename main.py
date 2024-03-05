@@ -3,7 +3,6 @@ import uvicorn
 
 app = FastAPI()
 
-# Inheritance
 class Animal:
     # Encapsulation
     def __init__(self, name):
@@ -16,6 +15,7 @@ class Animal:
     def make_sound(self):
         raise NotImplementedError("Subclass must implement abstract method")
 
+# Inheritance
 class Dog(Animal):
     #Polymorphism
     def make_sound(self):
