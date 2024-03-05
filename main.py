@@ -17,10 +17,12 @@ class Animal:
         raise NotImplementedError("Subclass must implement abstract method")
 
 class Dog(Animal):
+    #Polymorphism
     def make_sound(self):
         return "Woof!"
 
 class Cat(Animal):
+    #Polymorphism
     def make_sound(self):
         return "Meow!"
 
